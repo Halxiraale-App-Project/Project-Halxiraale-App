@@ -31,6 +31,11 @@ function queAndAnsw (que1, answe1, answe2, answe3, answe4) {
     // connect elements
 
     // add content
+    quepan.textContent=que1;
+    ans1p.textContent=answe1;
+    ans2p.textContent=answe2;
+    ans3p.textContent=answe3;
+    ans4p.textContent=answe4;
 
     // add classes
     

@@ -62,6 +62,7 @@ function queAndAnsw (que1, answe1, answe2, answe3, answe4) {
 // connect the entry point
 const quizEntry = document.querySelector(".que-entry")
 
-// call API and response the data
+// call API
 axios.get("https://private-1b8698-gabischool.apiary-mock.com/questions")
-.then(response => {})
+
+// response the data and check

@@ -60,5 +60,6 @@ function queAndAnsw (que1, answe1, answe2, answe3, answe4) {
 }
 
 // connect the entry point
+const quizEntry = document.querySelector(".que-entry")
 
 // call API and response the data

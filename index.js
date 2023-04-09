@@ -29,8 +29,6 @@ function queAndAnsw (que1, answe1, answe2, answe3, answe4) {
     const ans4p = document.createElement("p")
 
     // connect elements
-
-    // add content
     mainDiv.appendChild(queDiv)
     mainDiv.appendChild(quepan)
     mainDiv.appendChild(answDiv)
@@ -39,6 +37,8 @@ function queAndAnsw (que1, answe1, answe2, answe3, answe4) {
     mainDiv.appendChild(answ2Div)
     mainDiv.appendChild(ans3p)
     mainDiv.appendChild(ans4p)
+
+    // add content
 
     // add classes
     

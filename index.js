@@ -56,7 +56,7 @@ function queAndAnsw (que1, answe1, answe2, answe3, answe4) {
     ans4p.classList.add("ans4")
     
     // return the parent
-
+    return mainDiv
 }
 
 // connect the entry point

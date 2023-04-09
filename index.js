@@ -46,6 +46,14 @@ function queAndAnsw (que1, answe1, answe2, answe3, answe4) {
     ans4p.textContent = answe4
 
     // add classes
+    mainDiv.classList.add("prtdiv")
+    queDiv.classList.add("que")
+    answDiv.classList.add("answ")
+    ans1p.classList.add("ans1")
+    ans2p.classList.add("ans2")
+    answ2Div.classList.add("answ2")
+    ans3p.classList.add("ans3")
+    ans4p.classList.add("ans4")
     
     // return the parent
 

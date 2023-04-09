@@ -65,4 +65,10 @@ const quizEntry = document.querySelector(".que-entry")
 // call API
 axios.get("https://private-1b8698-gabischool.apiary-mock.com/questions")
 
+    .then(response => {
+        console.log(response)
+
+    })
+    
+
 // response the data and check

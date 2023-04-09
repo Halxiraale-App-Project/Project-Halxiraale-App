@@ -57,6 +57,8 @@ function queAndAnsw (que1, answe1, answe2, answe3, answe4) {
     
     // return the parent
     return mainDiv
+
+    // i changed the parent class
 }
 
 // connect the entry point

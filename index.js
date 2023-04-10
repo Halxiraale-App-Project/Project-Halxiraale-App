@@ -16,7 +16,9 @@
 
 // **************************************************************
 
-// create a component function
+// create a component function 
+
+
 function queAndAnsw (que1, answe1, answe2, answe3, answe4) {
     const mainDiv = document.createElement("div")
     const queDiv = document.createElement("div")
@@ -65,10 +67,31 @@ const quizEntry = document.querySelector(".que-entry")
 // call API
 axios.get("https://private-1b8698-gabischool.apiary-mock.com/questions")
 
-    .then(response => {
-        console.log(response)
+      .then(response => {
+        response.data.forEach(element => {
 
-    })
     
+            console.log(response)
+        
+         
+        let que1 = element.que1
+        let answe1 = element.answe1
+        let answe2 = element.answe2
+        let answe3= element.answe3
+        let answe4= element.answe4
+        
+              
+                
+    
+      quizEntry.appendChild(queAndAnsw(response.data))
+    });
 
+
+    });
+  
+  
 // response the data and check
+
+
+
+

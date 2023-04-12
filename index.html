@@ -17,25 +17,13 @@
             </ul>
         </div>
         <div class="time">
-            <p><i class="fa-solid fa-stopwatch"></i>11:45</p>
+            <p><i class="fa-solid fa-stopwatch"></i><span id="timer"></span></p>
             <span>question 1/10</span>
         </div>
-        <!-- Hadi aad rabtis inad aragtid UI Design-ka su'asha iyo afarta jawab uncomment dheh code-ka hose -->
-        <!-- <div class="que">
-            <span>What has a head and a tail, but no body?</span>
-        </div>
-        <div class="answ">
-            <p class="ans1">Coin</p>
-            <p class="ans2">Snake</p>
-        </div>
-        <div class="answ2">
-            <p class="ans3">Hammer</p>
-            <p class="ans4">Think It</p>
-        </div> -->
-        <!-- Component Entry Point -->
+         <div class="splashScreen" id="start_screen"></div>
         <div class="que-entry"></div>
         <div class="click">
-            <button>Next</button>
+            <button id="nextQuestion">Next</button>
         </div>
     </div>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>

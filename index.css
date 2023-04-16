@@ -5,7 +5,7 @@
 }
 
 .container {
-    background-color: aqua;
+    background-color: rgb(178, 225, 225);
     align-items: center;
     margin: 70px 230px;
     border-radius: 25px;
@@ -47,6 +47,7 @@
 }
 
 .time span {
+    font-size: larger;
     background-color: rgb(0, 81, 255);
     padding: 10px 20px;
     border-radius: 25px;
@@ -65,47 +66,6 @@
     border-radius: 10px;
 }
 
-.answ {
-    margin-bottom: 25px;
-    text-align: center;
-}
-
-.answ2 {
-    margin-bottom: 25px;
-    text-align: center;
-}
-
-.ans1 {
-    background-color: white;
-    border: solid 1px grey;
-    border-radius: 7px;
-    padding: 10px 66px;
-    display: inline;
-}
-
-.ans2 {
-    background-color: white;
-    border: solid 1px grey;
-    border-radius: 7px;
-    padding: 10px 62px;
-    display: inline;
-}
-
-.ans3 {
-    background-color: white;
-    border: solid 1px grey;
-    border-radius: 7px;
-    padding: 10px 53.5px;
-    display: inline;
-}
-
-.ans4 {
-    background-color: white;
-    border: solid 1px grey;
-    border-radius: 7px;
-    padding: 10px 55.5px;
-    display: inline;
-}
 
 .click {
     text-align: center;
@@ -122,56 +82,36 @@ padding: 10px 30px;
 margin-bottom: 125px;
 }
 
-/* margin-left: 395px; */
-/* margin-bottom: 125px; */
 
-/* .quetil{
-    text-align: center;
+.prtdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .choice {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
     border-radius: 5px;
-    margin-top: 40px;
-}
+    background-color: #f5f5f5;
+  }
 
-.quetil span {
-    background-color: white;
-    border-radius: 10px;
-    padding: 20px 35px;
-}
-
-.answ {
-    margin-top: 40px;
-    margin-bottom: 30px;
-}
-
-.ans1 {
-    display: inline;
-    background-color: green;
-    border-radius: 7px;
-    margin-left: 280px;
-    padding: 10px 65px;
-}
-
-.ans2 {
-    display: inline;
-    background-color: white;
-    margin-left: 5px;
-    border-radius: 7px;
-    padding: 10px 60.5px;
-}
-
-
-.ans3 {
-    display: inline;
-    background-color: white;
-    border-radius: 7px;
-    margin-left: 280px;
-    padding: 10px 52.5px;
-}
-
-.ans4 {
-    display: inline;
-    background-color: white;
-    margin-left: 5px;
-    border-radius: 7px;
-    padding: 10px 54px;
-} */
-
+  .choicesElement {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 500px;
+  }
+  
+  .choice:nth-child(1),
+  .choice:nth-child(2) {
+    flex-basis: calc(50% - 10px);
+  }
+  
+  .choice:nth-child(3) {
+    margin-top: 10px;
+    flex-basis: 100%;
+  }
+  

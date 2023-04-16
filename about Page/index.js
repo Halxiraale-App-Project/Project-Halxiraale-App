@@ -16,11 +16,6 @@
 
 // **************************************************************
 
-
-
-
-
-
 const nextQuestion = document.querySelector("#nextQuestion");
 const timer = document.querySelector("#timer");
 let timeLimit = 60;
@@ -91,7 +86,6 @@ function queAndAnsw (que1, choices, questionNumber) {
     
     // add classes
     mainDiv.classList.add("prtdiv")
-    queDiv.classList.add("que")
     
     // return the parent
     return mainDiv
@@ -125,6 +119,5 @@ axios.get("https://private-1b8698-gabischool.apiary-mock.com/questions")
                 console.log("Quiz completed!");
             }
 
-        
            });
         });

@@ -60,6 +60,18 @@ h4{
     padding: 200px 230px;
 }
 
+.result-container {
+    background-color: aqua;
+    margin: 70px 230px;
+    border-radius: 25px;
+    padding: 0px 230px;
+    padding-bottom: 300px;
+}
+
+.results {
+    margin-top: 100px;
+}
+
 .start {
     text-align: center;
     
